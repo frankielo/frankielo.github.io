@@ -1,4 +1,4 @@
-<script src="http//:raw.github.com/[frankielo]/[frankielo.github.io]/min.js"></script>
+
 function draw() {
     var canvas = $('canvas')[0];
     if(canvas.getContext) {
