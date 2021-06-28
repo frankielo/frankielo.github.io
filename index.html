@@ -64,6 +64,7 @@
         <div class="hex" id="dos"></div>
         <div class="hex" id="tres"></div>
         
+        <script>
         function draw() {
     var canvas = $('canvas')[0];
     if(canvas.getContext) {
@@ -86,5 +87,6 @@ $(document).ready(function() {
         $(this).children('.hex').toggleClass('moved');
     })
 });
+        </script>
     </body>
  </html>
